@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4A302C2AF86E750024A092 /* NowPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A302B2AF86E750024A092 /* NowPlayerApp.swift */; };
+		EF4A302E2AF86E750024A092 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A302D2AF86E750024A092 /* ContentView.swift */; };
+		EF4A30302AF86E760024A092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4A302F2AF86E760024A092 /* Assets.xcassets */; };
+		EF4A30332AF86E760024A092 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4A30322AF86E760024A092 /* Preview Assets.xcassets */; };
+		EF4A303E2AF86E760024A092 /* NowPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A303D2AF86E760024A092 /* NowPlayerTests.swift */; };
+		EF4A30482AF86E760024A092 /* NowPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A30472AF86E760024A092 /* NowPlayerUITests.swift */; };
+		EF4A304A2AF86E760024A092 /* NowPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A30492AF86E760024A092 /* NowPlayerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4A303A2AF86E760024A092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4A30202AF86E750024A092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4A30272AF86E750024A092;
+			remoteInfo = NowPlayer;
+		};
+		EF4A30442AF86E760024A092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4A30202AF86E750024A092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4A30272AF86E750024A092;
+			remoteInfo = NowPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4A30282AF86E750024A092 /* NowPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4A302B2AF86E750024A092 /* NowPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayerApp.swift; sourceTree = "<group>"; };
+		EF4A302D2AF86E750024A092 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF4A302F2AF86E760024A092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4A30322AF86E760024A092 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4A30342AF86E760024A092 /* NowPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NowPlayer.entitlements; sourceTree = "<group>"; };
+		EF4A30392AF86E760024A092 /* NowPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NowPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4A303D2AF86E760024A092 /* NowPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayerTests.swift; sourceTree = "<group>"; };
+		EF4A30432AF86E760024A092 /* NowPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NowPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4A30472AF86E760024A092 /* NowPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayerUITests.swift; sourceTree = "<group>"; };
+		EF4A30492AF86E760024A092 /* NowPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4A30252AF86E750024A092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4A30362AF86E760024A092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4A30402AF86E760024A092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4A301F2AF86E750024A092 = {
+			isa = PBXGroup;
+			children = (
+				EF4A302A2AF86E750024A092 /* NowPlayer */,
+				EF4A303C2AF86E760024A092 /* NowPlayerTests */,
+				EF4A30462AF86E760024A092 /* NowPlayerUITests */,
+				EF4A30292AF86E750024A092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4A30292AF86E750024A092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A30282AF86E750024A092 /* NowPlayer.app */,
+				EF4A30392AF86E760024A092 /* NowPlayerTests.xctest */,
+				EF4A30432AF86E760024A092 /* NowPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4A302A2AF86E750024A092 /* NowPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A302B2AF86E750024A092 /* NowPlayerApp.swift */,
+				EF4A302D2AF86E750024A092 /* ContentView.swift */,
+				EF4A302F2AF86E760024A092 /* Assets.xcassets */,
+				EF4A30342AF86E760024A092 /* NowPlayer.entitlements */,
+				EF4A30312AF86E760024A092 /* Preview Content */,
+			);
+			path = NowPlayer;
+			sourceTree = "<group>";
+		};
+		EF4A30312AF86E760024A092 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A30322AF86E760024A092 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4A303C2AF86E760024A092 /* NowPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A303D2AF86E760024A092 /* NowPlayerTests.swift */,
+			);
+			path = NowPlayerTests;
+			sourceTree = "<group>";
+		};
+		EF4A30462AF86E760024A092 /* NowPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A30472AF86E760024A092 /* NowPlayerUITests.swift */,
+				EF4A30492AF86E760024A092 /* NowPlayerUITestsLaunchTests.swift */,
+			);
+			path = NowPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4A30272AF86E750024A092 /* NowPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4A304D2AF86E760024A092 /* Build configuration list for PBXNativeTarget "NowPlayer" */;
+			buildPhases = (
+				EF4A30242AF86E750024A092 /* Sources */,
+				EF4A30252AF86E750024A092 /* Frameworks */,
+				EF4A30262AF86E750024A092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NowPlayer;
+			productName = NowPlayer;
+			productReference = EF4A30282AF86E750024A092 /* NowPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4A30382AF86E760024A092 /* NowPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4A30502AF86E760024A092 /* Build configuration list for PBXNativeTarget "NowPlayerTests" */;
+			buildPhases = (
+				EF4A30352AF86E760024A092 /* Sources */,
+				EF4A30362AF86E760024A092 /* Frameworks */,
+				EF4A30372AF86E760024A092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4A303B2AF86E760024A092 /* PBXTargetDependency */,
+			);
+			name = NowPlayerTests;
+			productName = NowPlayerTests;
+			productReference = EF4A30392AF86E760024A092 /* NowPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4A30422AF86E760024A092 /* NowPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4A30532AF86E760024A092 /* Build configuration list for PBXNativeTarget "NowPlayerUITests" */;
+			buildPhases = (
+				EF4A303F2AF86E760024A092 /* Sources */,
+				EF4A30402AF86E760024A092 /* Frameworks */,
+				EF4A30412AF86E760024A092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4A30452AF86E760024A092 /* PBXTargetDependency */,
+			);
+			name = NowPlayerUITests;
+			productName = NowPlayerUITests;
+			productReference = EF4A30432AF86E760024A092 /* NowPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4A30202AF86E750024A092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EF4A30272AF86E750024A092 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EF4A30382AF86E760024A092 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EF4A30272AF86E750024A092;
+					};
+					EF4A30422AF86E760024A092 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EF4A30272AF86E750024A092;
+					};
+				};
+			};
+			buildConfigurationList = EF4A30232AF86E750024A092 /* Build configuration list for PBXProject "NowPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4A301F2AF86E750024A092;
+			productRefGroup = EF4A30292AF86E750024A092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4A30272AF86E750024A092 /* NowPlayer */,
+				EF4A30382AF86E760024A092 /* NowPlayerTests */,
+				EF4A30422AF86E760024A092 /* NowPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4A30262AF86E750024A092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4A30332AF86E760024A092 /* Preview Assets.xcassets in Resources */,
+				EF4A30302AF86E760024A092 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4A30372AF86E760024A092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4A30412AF86E760024A092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4A30242AF86E750024A092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4A302E2AF86E750024A092 /* ContentView.swift in Sources */,
+				EF4A302C2AF86E750024A092 /* NowPlayerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4A30352AF86E760024A092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4A303E2AF86E760024A092 /* NowPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4A303F2AF86E760024A092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4A304A2AF86E760024A092 /* NowPlayerUITestsLaunchTests.swift in Sources */,
+				EF4A30482AF86E760024A092 /* NowPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4A303B2AF86E760024A092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4A30272AF86E750024A092 /* NowPlayer */;
+			targetProxy = EF4A303A2AF86E760024A092 /* PBXContainerItemProxy */;
+		};
+		EF4A30452AF86E760024A092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4A30272AF86E750024A092 /* NowPlayer */;
+			targetProxy = EF4A30442AF86E760024A092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF4A304B2AF86E760024A092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4A304C2AF86E760024A092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EF4A304E2AF86E760024A092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NowPlayer/NowPlayer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NowPlayer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AKB.NowPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF4A304F2AF86E760024A092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NowPlayer/NowPlayer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NowPlayer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AKB.NowPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF4A30512AF86E760024A092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AKB.NowPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NowPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NowPlayer";
+			};
+			name = Debug;
+		};
+		EF4A30522AF86E760024A092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AKB.NowPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NowPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NowPlayer";
+			};
+			name = Release;
+		};
+		EF4A30542AF86E760024A092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AKB.NowPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NowPlayer;
+			};
+			name = Debug;
+		};
+		EF4A30552AF86E760024A092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AKB.NowPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NowPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4A30232AF86E750024A092 /* Build configuration list for PBXProject "NowPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4A304B2AF86E760024A092 /* Debug */,
+				EF4A304C2AF86E760024A092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4A304D2AF86E760024A092 /* Build configuration list for PBXNativeTarget "NowPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4A304E2AF86E760024A092 /* Debug */,
+				EF4A304F2AF86E760024A092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4A30502AF86E760024A092 /* Build configuration list for PBXNativeTarget "NowPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4A30512AF86E760024A092 /* Debug */,
+				EF4A30522AF86E760024A092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4A30532AF86E760024A092 /* Build configuration list for PBXNativeTarget "NowPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4A30542AF86E760024A092 /* Debug */,
+				EF4A30552AF86E760024A092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4A30202AF86E750024A092 /* Project object */;
+}
